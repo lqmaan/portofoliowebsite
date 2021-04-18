@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Website">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Luqmanul Hakim">
+    <meta name="author" content="Luqmanul Hakim">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portofolio Website</title>
+    <link rel="icon" href="images/logo/c.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+</head>   
+
+
+<body style="height: 100%;">
+    <header class="container">
+        <nav class="nav">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>
+            <a href="index.html" class="logo"> <img src="images/logo/c.png"></a>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#project" class="nav-link">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skill" class="nav-link">Skill</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <h2 class="sub-headline">
+                Hi,I am
+            </h2>
+            <h1 class="headline">
+                Luqmanul Hakim
+            </h1>
+            <div class="headline-description">
+                <div class="separator">
+                    <div class="line line-left"></div>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <div class="line line-right"></div>
+                </div>
+                <div class="single-animation">
+                    <h5>An IT Student</h5>
+                    <a href="#" class="btn  cta-btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discover-our-story" id="about">
+        <div class="container">
+            <div class="section-info">
+                <div class="section-description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">D</span>iscover
+                        </h2>
+                        <h1 class="headline headline-dark">
+                            My Story 
+                        </h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>My name is Luqmanul Hakim and called as Luqman. Currently, I am 3rd year student in President University majoring in Information Technology.
+                             I am the second from three siblings in my family. Because of my older brother, I start to interest and curious about information technology whether how the application is being made or how the application works .
+                             From it, I enroll in IT major in President University, which is the same university with my older brother. The other reason why I enroll in Information Technology is Mathematic. At first, it is kind of hard to follow, but it is fun in a way. 
+                             <span id="dots"> ...</span>
+                        <span id="more">
+                             Along with time, I joined an organization called President University Major Association of Computing as Student Development Member. Its job are to accommodate and facilitate the computing student to improve their knowledge by sharing session, coding practice, and company visits. 
+                             And also I have joined some event as committee such as event organizer, liaison office, and f&b.
+                             I always work hard for not getting fall behind. And right now, the current GPA that I have is 3.79 and I always be grateful of it. 
+                             My goal in this last academic year is to get the cum laude. And my dream is to get a happy and balance life with my family and friends around.  
+                        </span></p>
+                    <a class="btn body-btn" id="read-more"  onclick="ReadMore()">
+                        Read More
+                    </a>
+                </div>
+                <div class="section-info-img animate-right">
+                    <img src="images/bg/anotherman-bgrmv.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="more-about-me between">
+        <div class="container">
+        <div class="global-headline">
+            <div class="animate-top">
+                <h2 class="sub-headline">
+                    More
+                </h2>
+            </div>
+            <div class="animate-bottom">
+                <h1 class="headline">
+                    About Me 
+                </h1>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="my-work" id="project">
+        <h2 class="headline animate-bottom">My Projects</h2>
+        <div class="portfolio">
+            <div class="portfolio-item animate-left">
+                <a href="#jobsika">
+                <img src="images/bg/dark-keyboard.jpg" alt="Avatar" class="portfolio-img">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-text">Jobsika</div>
+                </div>
+                </a>
+              </div>
+              
+              <div class="portfolio-item animate-right">
+                <a href="#bubblecrab">
+                <img src="images/project/bc_project.png" alt="Avatar" class="portfolio-img">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-text">2D Bubble Crab Animation</div>
+                </div>
+                </a>
+              </div>
+    
+              <!-- <div class="portfolio-item">
+                <a href="">
+                <img src="images/bg/dark-keyboard2.jpg" alt="Avatar" class="portfolio-img">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-text">Hello World</div>
+                </div>
+                </a>
+              </div> -->
+    
+            
+        </div>
+    </section>
+    <!-- Tasteful recipes ends -->
+    
+    <section class="jobsika" id="jobsika">
+        <div class="container">
+            <div class="section-info">
+                <div class="section-description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            Jobsika
+                        </h2>
+                        <h1 class="headline headline-dark">
+                            Mobile Application
+                        </h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                       It is a mobile application about job finding. The application itself was developed with React Native and PHP that connected to database. 
+                       The purpose of the project are for fulfilling the requirement for the subject of Mobile Programming. The project are conducted for group and my job are  handling the interaction and the connection with the server.</p>
+                    <!-- <a href="#" class="btn body-btn">
+                        Make a reservation
+                    </a> -->
+                </div>
+                <div class="image-group">
+                    <img class="animate-top" src="images/project/jobsika_splash.gif" alt="">
+                    <img class="animate-bottom" src="images/project/jobsika1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jobsika End -->
+
+    <section class="bubblecrab" id="bubblecrab">
+        <div class="container">
+            <div class="section-info">
+                <div class="image-group padding-right animate-left">
+                    <img src="images/project/bc1.png" alt="">
+                    <img src="images/project/bc2.png" alt="">
+                    <img src="images/project/bc3.png" alt="">
+                    <img src="images/project/bc4.png" alt="">
+                </div>
+                <div class="section-description animate-right">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            BubbleCrab
+                        </h2>
+                        <h1 class="headline headline-dark">
+                            2D Animation
+                        </h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        The program is about sprite animation, a basic application program that allows 
+user to play/control Bubble Crab (one of the boss in Mega Man X2). This program is 
+like a simple animation game that provides several movements/actions (introduction, 
+stand, jump, attack and move diagonally) for the user to demonstrate or play. This 
+program manipulates the backgrounds and characters or in this case are sprites to create 
+a whole series of simple graphic game.
+
+                    </p>
+                    <!-- <a href="#" class="btn body-btn">View the full menu</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bubble Crab ends -->
+
+    <section class="quote between">
+        <div class="container">
+        <div class="global-headline">
+            <div class="animate-top">
+                <h2 class="sub-headline">
+                    In some ways
+                </h2>
+            </div>
+            <div class="animate-bottom">
+                <h1 class="headline">
+                    programming is <br>
+                    like painting.
+                </h1>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="technical-skill" id="skill">
+        <div class="container">
+            <div class="section-info">
+                <div class="section-description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            Technical
+                        </h2>
+                        <h1 class="headline headline-dark">
+                            Skill
+                        </h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        There are some programming language that I familiar with such as HTML, CSS, JavaScript, PHP, Java, VB.net, C#, C++,etc. 
+                        The framework that I have used are Laravel, React Native, CodeIgniter.
+                    </p>
+                    <!-- <a href="#" class="btn body-btn">
+                        Make a reservation
+                    </a> -->
+                </div>
+                <div class="image-group">
+                    <img class="animate-top" src="images/certificate/js_basic.png" alt="">
+                    <img class="animate-bottom" src="images/certificate/sql_basic.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="back-to-top">
+                <a href="#hero">
+                    <i class="fas fa-chevron-up"></i>
+                </a>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content-divider animate-bottom">
+                    <div class="social-menu" id="contact">
+                        <p> hluqman2107@gmail.com
+                        <h4>Follow along</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="main.js"></script>
+
+</body>
+
+
+</html>
